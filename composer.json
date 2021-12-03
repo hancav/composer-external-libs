@@ -1,0 +1,26 @@
+{
+    "name": "hancav/composer-external-libs",
+    "description": "composer load external libs example - test sandbox",
+    "homepage": "https://github.com/hancav/composer-external-libs",
+    "type": "project",
+    "version":"1.0.0-dev",
+    "authors": [
+        {
+            "name": "Hancav",
+            "email": "hancav@mail.com"
+        }
+    ],
+    "repositories": [
+        {
+            "name": "hancav/mystrfncts",
+            "type": "vcs",
+            "url": "https://github.com/hancav/mystrfncts"
+        }
+    ],  
+    "require": {
+        "phpunit/php-timer": "6.0.x-dev",
+        "hancav/mystrfncts": "*"
+    },
+    "minimum-stability": "dev"
+    
+}
